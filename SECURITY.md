@@ -2,11 +2,12 @@
 
 ## Supported Versions
 
-Currently 6.0 is the only extended support release, it will be supported until the release of LetsChat 7.0.
+Please look at the respective README.md files in the releases listed below to gauge their support window.
 
 | Version | Supported          |
 | ------- | ------------------ |
 | 6.0     | :white_check_mark: |
+| 1.0     | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
