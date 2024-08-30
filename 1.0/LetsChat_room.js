@@ -1,20 +1,31 @@
-var firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  databaseURL: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
-};
+firebaseConfig = {
+  apiKey: "AIzaSyDCKd9OXejZ-0PK729riphOd6Z1KgrzjCo",
+  authDomain: "letschattestbranch.firebaseapp.com",
+  databaseURL: "https://letschattestbranch-default-rtdb.firebaseio.com/",
+  projectId: "letschattestbranch",
+  storageBucket: "letschattestbranch.appspot.com",
+  messagingSenderId: "1048525961569",
+  appId: "1:1048525961569:web:83583f3ab3a726da266d20"
+}
 
 
 
   firebase.initializeApp(firebaseConfig);
 
-user_name = localStorage.getItem("user_name");
+// Function to safely escape HTML characters
+function escapeHTML(html) {
+  var element = document.createElement('div');
+  if (html) {
+      element.innerText = html;
+      return element.innerHTML;
+  }
+  return '';
+}
 
-document.getElementById("user_name").innerHTML = "Welcome " + user_name + "!";
+let user_name = localStorage.getItem("user_name");
+let escaped_user_name = escapeHTML(user_name);
+
+document.getElementById("user_name").innerHTML = "Welcome " + escaped_user_name + "!";
 
 function addRoom()
 {
