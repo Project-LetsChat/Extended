@@ -7,9 +7,6 @@ The latest version is the only currently supported version, 6.0 is the newest ma
 | Version | Supported          |
 | ------- | ------------------ |
 | 6.0     | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :x:                |
-| < 4.0   | :x:                |
 
 ## Reporting a Vulnerability
 
