@@ -2,42 +2,42 @@ The login page is usually located in the index.html file, the default one can be
 
 ### How to swap out login pages (NeoLogins)
 
-1. Choose one of the TXT files from the NeoLogins folder and rename it to <code>index.html</code> (which should convert the file from TXT to HTML).
+1. Choose one of the TXT files from the NeoLogins folder and rename it to index.html (which should convert the file from TXT to HTML).
 
-2. Replace the default <code>index.html</code> file with the new one you renamed.
+2. Replace the default index.html file with the new one you renamed.
 
 3. You're all set!
 
 ### How to build a custom login page:
 
-1. Create a file and name it <code>index.html</code>.
+1. Create a file and name it index.html.
 
-2. The file must link to LetsChat.js, the easiest way to do so is by adding this code snippet to the <code>body</code> or the <code>head</code> tags:
+2. The file must link to LetsChat.js, the easiest way to do so is by adding this code snippet to the body or the head tags:
 
 ```HTML
 <script src="LetsChat.js"></script>
 ```
 
-3. In the <code>body</code> section, there needs to be a textbox to enter the username and that textbox must have the id <code>user_name</code>:
+3. In the body section, there needs to be a textbox to enter the username and that textbox must have the id user_name:
 ```HTML
 <input type="text" id="user_name" placeholder="Enter your username">
 ```
 
-4. Now, create a <code>button</code>. The <code>button</code> should have <code>onclick="addUser()"</code> in the HTML tag so that it can trigger the <code>addUser()</code> function:
+4. Now, create a button. The button should have onclick="addUser()" in the HTML tag so that it can trigger the addUser() function:
 ```HTML
 <button onclick="addUser()">Login</button>
 ```
 
-5. Replace the default <code>index.html</code> with your custom created <code>index.html</code>.
+5. Replace the default index.html with your custom created index.html.
 
 6. You're all set!
 
 #### Customise the custom login page (Optional):
 
-1. Link your custom <code>index.html</code> to the universal <code><a href="https://github.com/BhargavEkbote/LetsChat/wiki/style.css/">style.css</a></code> file:
+1. Link your custom index.html to the universal style.css file:
 ```HTML
 <link rel="stylesheet" href="style.css">
 ```
 This will make the page aligned with all the rest of the pages.
 
-2. Create and attach a custom <code>.css</code> file to your custom login page, if you have linked the universal <code><a href="https://github.com/BhargavEkbote/LetsChat/wiki/style.css/">style.css</a></code> file to your custom login page then make sure that your custom <code>.css</code> file is compatible with the universal <code><a href="https://github.com/BhargavEkbote/LetsChat/wiki/style.css/">style.css</a></code> file or else it might break the styling.
+2. Create and attach a custom .css file to your custom login page, if you have linked the universal style.css file to your custom login page then make sure that your custom .css file is compatible with the universal style.css file or else it might break the styling.

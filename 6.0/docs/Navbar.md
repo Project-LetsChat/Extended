@@ -20,3 +20,4 @@ The navigation bar (<code>navbar</code> for short) is a menu in LetsChat that ca
 			LetsChat
 		</a>
 ```
+###### NOTE: As of LetsChat version 6.0 the <code>navbar</code> now has a new file for theming it, making it independent from the universal style.css file.
