@@ -7,8 +7,8 @@ Please look at the respective README.md files in the releases listed below to ga
 | Version | Supported          |
 | ------- | ------------------ |
 | 6.0     | :white_check_mark: |
-| 1.0     | :white_check_mark: |
-| 5.1.4   | :white_check_mark: |
+| 1.0     | :x:                |
+| 5.1.4   | :x:                |
 
 ## Reporting a Vulnerability
 
