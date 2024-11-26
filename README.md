@@ -1,4 +1,20 @@
 # LetsChat Extended
 This repository holds all extended support releases of LetsChat.
 
-Extended support releases do not get new features, they only get security patches and bug fixes. In certain cases they may recieve newer libraries.
+This is a list of things Extended releases do and do not get:
+
+✅ Security Updates
+
+✅ Bug fixes
+
+✅ Updated Libraries
+
+✅ Updated documentation
+
+✅ Updates to remain compatible with the Kwitter specification.
+
+<span style="color:red">❌</span> New features
+
+<span style="color:red">❌</span> Architectural changes
+
+<span style="color:red">❌</span> Updated modules
