@@ -6,9 +6,10 @@ Please look at the respective README.md files in the releases listed below to ga
 
 | Version | Supported          |
 | ------- | ------------------ |
+| 6.0.2   | :white_check_mark: |
 | 6.0     | :white_check_mark: |
-| 1.0     | :x:                |
 | 5.1.4   | :x:                |
+| 1.0     | :x:                |
 
 ## Reporting a Vulnerability
 

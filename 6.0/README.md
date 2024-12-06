@@ -7,8 +7,10 @@ If you find a bug make an Issue.
 
 ## Instructions to Implement:
 
-1. Add a backend server, go to the <a href="https://github.com/BhargavEkbote/LetsChat/wiki/How-to-use-LetsChat">How to use LetsChat</a> page on the <a href="https://github.com/BhargavEkbote/LetsChat/wiki">LetsChat Wiki</a> for more details.
+1. Add a backend server.
 2. This is made as customisable and easy to tweak as possible, so tweak all you want.
+
+Go to <a href="https://github.com/Project-LetsChat/LetsChat/wiki/Setting-up-a-LetsChat-instance/">this page</a> on the <a href="https://github.com/BhargavEkbote/LetsChat/wiki">LetsChat Wiki</a> for more details.
 
 ## Licensing
 
