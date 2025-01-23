@@ -9,12 +9,17 @@ var firebaseConfig = {
 };
 
 
+function escapeHTML(str) {
+  var div = document.createElement('div');
+  div.appendChild(document.createTextNode(str));
+  return div.innerHTML;
+}
 
-  firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 
 user_name = localStorage.getItem("user_name");
 
-document.getElementById("user_name").innerHTML = "Welcome " + user_name + "!";
+document.getElementById("user_name").innerHTML = "Welcome " + escapeHTML(user_name) + "!";
 
 function addRoom()
 {
