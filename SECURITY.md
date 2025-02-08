@@ -6,6 +6,7 @@ Please look at the respective README.md files in the releases listed below to ga
 
 | Version | Supported          |
 | ------- | ------------------ |
+| 6.1.2   | :white_check_mark: |
 | 6.0.2   | :white_check_mark: |
 | 6.0     | :white_check_mark: |
 | 5.1.4   | :x:                |
